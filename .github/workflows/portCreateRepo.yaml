@@ -18,4 +18,4 @@ jobs:
           org: "<YOUR-ORG-NAME>" # change this to the org name in which you want to create the new repo
           access-token: ${{ secrets.ORG_ADMIN_TOKEN }} # the secret we created in the previous step
           private-repo: true
-          initalize-repo: true
+          initialize-repo: true
