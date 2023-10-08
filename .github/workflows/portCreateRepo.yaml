@@ -6,6 +6,11 @@ on:
     inputs:
       name:
         type: string
+      port_payload:
+        required: true
+        description: Port's payload, including details for who triggered the action and
+          general context (blueprint, run id, etc...)
+        type: string
 jobs:
   create-repository:
     runs-on: ubuntu-latest
